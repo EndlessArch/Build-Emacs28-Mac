@@ -60,10 +60,9 @@ libexec-x86_64-10_14 (폴더)
 아마 10_14가 10_10보다 높은 버전으로 보이니,
 libexec-x86_64-10_14의 폴더를 새로운 이맥스 애플리케이션 폴더 안에 넣고,
 
-Emacs.app/Contents/Resources/lisp 까지 복사해 넣자.
+Emacs.app/Contents/Resources/lisp
+Emacs.app/Contents/Resource/etc
+
+두 폴더도 북붙.
 
 Emacs.app을 실행하면 잘 돌아간다.
-
-하지만 전 버전은 파일이 그렇게 많던데,
-얘는 2개로도 돌아가니 불안하다.
-혹시 애러나 문제 생기면 구버전에서 파일들을 더 복사하면 되겠지.
