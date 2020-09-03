@@ -24,8 +24,6 @@ gnu 사이트에 들어가서 자신이 원하는 커밋 선택, 다운.
 bash autogen.sh 로 configure 스크립트 생성,
 
 ./configure --with-ns --with-modules --enable-silent-rules \
-     PKG_CONFIG_PATH=/opt/local/lib/pkgconfig \
-     LDFLAGS="-L/opt/local/lib" CPPFLAGS="-I/opt/local/include" \
      CC=clang OBJC=clang CFLAGS="-g -O3"
      
 설정이 다 끝나면 make로 빌드.
