@@ -28,6 +28,13 @@ bash autogen.sh 로 configure 스크립트 생성,
      
 설정이 다 끝나면 make로 빌드.
 
+_________ 수정 _________
+
+make install 로 앱을 만들면 된다.
+앱은 nextstep/ 에 있음.
+
+_____ 아래는 무시하자 _____
+
 빌드가 다 되면 cd nextstep/
 여기에 Emacs.app 앱이 있을텐데, 열어보면 이상하게도 버전이 27로 실행된다.
 Info.plist에는 버전이 28이 적혀있는데도
